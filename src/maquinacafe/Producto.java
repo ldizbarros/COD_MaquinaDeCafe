@@ -37,6 +37,14 @@ public class Producto {
     public static void setAzucar(int azucar) {
         Producto.azucar = azucar;
     }
+    
+    public static void aumentarAzucar(){
+        Producto.azucar+=1;
+    }
+    
+    public static void disminuirAzucar(){
+        Producto.azucar-=1;
+    }
 
     @Override
     public String toString() {

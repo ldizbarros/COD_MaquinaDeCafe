@@ -28,6 +28,11 @@ public class Display {
         Display.menu();
         System.out.print("--> ");
         int opcionMenu = sc.nextInt();
-        Botonera.opcionesMenu(opcion,lista);
+        Botonera.opcionesMenu(opcionMenu,lista);
+    }
+    
+     public static void elaborarBebida(){
+        System.out.println("Procesando bebida..........\n");
+        System.out.println("Aqui esta su bebida. Hasta la proxima!");
     }
 }
