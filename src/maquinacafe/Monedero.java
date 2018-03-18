@@ -20,7 +20,7 @@ public class Monedero {
   
     /**
      * Metodo donde se aumenta el calor de la variable credito
-     * @param cantidad 
+     * @param cantidad valor que aumenta la cantidad de dinero
      */
     public void aumentarCredito(float cantidad){
         credito+=cantidad;

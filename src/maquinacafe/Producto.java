@@ -92,7 +92,7 @@ public class Producto {
 
     /**
      * Metodo toString
-     * @return 
+     * @return devuleve un String con el valor de tipo y precio
      */
     @Override
     public String toString() {
